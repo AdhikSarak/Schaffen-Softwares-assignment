@@ -49,7 +49,7 @@ class _MainScreenState extends State<MainScreen> {
                       title: "The Weekend".text.bold.size(15).white.make(),
                       subtitle:
                           "Community.11K members".text.white.size(10).make(),
-                      trailing: const Icon(Icons.share).box.make(),
+                      trailing: const Icon(Icons.share, color: Colors.white,).box.make(),
                     ),
                   ),
                 ),
@@ -58,7 +58,7 @@ class _MainScreenState extends State<MainScreen> {
                   child: dolorIpsum.text.make(),
                 ),
                 Padding(
-                  padding: const EdgeInsets.all(20.0),
+                  padding: const EdgeInsets.all(5.0),
                   child: SingleChildScrollView(
                     scrollDirection: Axis.horizontal,
                     child: Row(
